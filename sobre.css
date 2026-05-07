@@ -1,0 +1,28 @@
+/*Reset basico*/
+/*#00a2ff9d*/
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.conteudo_principal{
+    background-color: #00a2ff9d;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    border: solid blue 2px;
+}
+
+main{
+    display: inline-block;
+    margin: 20px;
+    background-color: darkslategray;
+    color: white;
+    font-size: 20px;
+    border: solid red 2px;
+    padding: 10px;
+    text-align: center;
+}
