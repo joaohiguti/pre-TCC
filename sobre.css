@@ -22,7 +22,7 @@ main{
     background-color: darkslategray;
     color: white;
     font-size: 20px;
-    border: solid red 2px;
+    border: solid rgb(85, 45, 0) 5px;
     padding: 10px;
     text-align: center;
 }

@@ -1,0 +1,18 @@
+header{
+    background-color: #00a2ff9d;
+    color: white;
+    display: flex; /* ele ativa o flexbox, e flexbox siginifica caixa flequisivel */
+
+    justify-content: space-between;/* center = ele centraliza oque eu quero
+    flex-start = alinha no começo do eixo principal
+    space-between = espaço entre os itens
+    space-around = espaço ao redor dos itens 
+    space-evelyn = espaço igual entre todos */
+
+    flex-direction: row; /* o flex-direction ele server pra definir/ espesificar a direção que eu quero, se for column é coluna e row é linha, dando também para reverter. */
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    text-align: center;
+}
