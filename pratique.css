@@ -1,0 +1,29 @@
+/* reset basico */
+
+
+header{
+    background-color: #00a2ff9d;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: black;
+    color: white;
+
+}
+main{
+display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    width: 100%;             /* FORÇA o container a ocupar a largura da tela */
+    margin: 40px 0;          /* Dá um espaço em cima e embaixo */
+ 
+}
+main img{
+    border-radius: 20px;
+    object-fit: cover;
+}
