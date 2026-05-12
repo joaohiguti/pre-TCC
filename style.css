@@ -42,7 +42,7 @@
     object-fit: cover;
 }
 body{
-    background-color: rgb(232, 255, 252);
+    background-color: lab(100% 0.01 -0.01);
 }
 .navegação{
     display: flex;

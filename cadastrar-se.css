@@ -4,31 +4,50 @@
     padding: 0%;
 }
 .cadastrar-se-inicial{
-    background-color: #00a2ff9d;
+      background-color: #00a2ff9d;
     color: white;
-    display: flex;
-    justify-content: space-between;
+    display: flex; /* ele ativa o flexbox, e flexbox siginifica caixa flequisivel */
+
+    justify-content: space-between;/* center = ele centraliza oque eu quero
+    flex-start = alinha no começo do eixo principal
+    space-between = espaço entre os itens
+    space-around = espaço ao redor dos itens 
+    space-evelyn = espaço igual entre todos */
+
     flex-direction: row; /* o flex-direction ele server pra definir/ espesificar a direção que eu quero, se for column é coluna e row é linha, dando também para reverter. */
     justify-content: center;
-    
+    align-items: center;
 }
 .continuar-conta{
     border-radius: 10px;
-    flex-direction: column;
     display: flex;
+     flex-direction: column;
     margin: 50px;
     padding: 35px;
-    justify-content:space-evenly;
+    justify-content:center;
     text-align: center;
-    background-color:  #004379;
+    background-color:  #008cff;
+    width: 400px;
 }
 .continuar-conta img{
-    width: 100%;
-    height: 100px;
+    width: 300px;
     border-radius: 10px;
     object-fit: cover;
 }
 .continuar-conta a{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    object-fit: cover;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
